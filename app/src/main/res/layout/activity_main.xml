@@ -72,11 +72,12 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp">
+        android:layout_marginBottom="3dp">
 
         <TextView
             android:text="       Course
         Name"
+            android:textStyle="bold"
             android:textColor="#000"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -85,6 +86,7 @@
         <TextView
             android:text="     Price in
         INR"
+            android:textStyle="bold"
             android:textColor="#000"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -93,6 +95,7 @@
         <TextView
             android:text="     Price in
         USD"
+            android:textStyle="bold"
             android:textColor="#000"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -107,8 +110,12 @@
     </LinearLayout>
 
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/myshape2">
 
         <TextView
             android:text="Csharp for
@@ -130,12 +137,12 @@ Fresher"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:gravity="center_horizontal"
+            android:gravity="center"
             android:background="#07B"
             android:text="ENROLL"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
 
     </LinearLayout>
     </LinearLayout>
